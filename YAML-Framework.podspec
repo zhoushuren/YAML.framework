@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
  
   s.requires_arc = false
   
-  s.source_files = "YAMLSerialization.{h,m}", "yaml-0.1.4/config.h"
+  s.source_files = "YAMLSerialization.{h,m}", "yaml-0.1.4/config.h", "yaml-0.1.4/src/*.{h,c,am,in}"
   s.public_header_files = 'YAMLSerialization.h'
-  s.dependency "LibYAML", "~> 0.1.4"
+  # s.dependency "LibYAML", "~> 0.1.4"
 
 end
